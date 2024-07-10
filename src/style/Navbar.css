@@ -1,0 +1,29 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.Navbar button {
+  margin-right: 80px;
+  background-color: var(--third);
+  border-radius: 30px;
+  border: none;
+  width: 200px;
+  color: var(--secondary);
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  
+}
+
+.name {
+  margin-left: 80px;
+  font-family: "Calistoga", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  color: var(--secondary);
+}
+

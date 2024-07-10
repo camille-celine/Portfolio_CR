@@ -1,0 +1,74 @@
+.MyProjects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+  background-color: var(--third);
+}
+
+svg {
+  background-color: var(--primary);
+}
+
+.MyProjects .title {
+  margin-left: 80px;
+  font-family: "Calistoga", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  color: var(--secondary);
+}
+
+.project {
+  margin-top: 80px;
+  border-radius: 20px;
+  background-color: #FFF9F0;
+  display: flex;
+}
+
+.project img {
+  max-width: 600px;
+  margin: 50px 30px;
+}
+
+.project-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.project-title {
+  margin: 0;
+  font-family: "Calistoga", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: #096B72;
+}
+
+.project-description {
+  font-size: 20px;
+}
+
+.stack {
+  margin-top: 40px;
+}
+
+.stack-name {
+  padding: 15px 20px;
+  margin-right: 15px;
+  border-radius: 15px;
+  box-shadow: 2px 6px grey;
+  color: #096B72;
+  font-family: "Calistoga", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+
