@@ -3,13 +3,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 300px;
   background-color: var(--third);
+  padding-bottom: 150px;
 }
 
-svg {
-  background-color: var(--primary);
-}
+/* svg {
+  background-color: black;
+} */
 
 .MyProjects .title {
   margin-left: 80px;
@@ -17,19 +17,20 @@ svg {
   font-weight: 400;
   font-style: normal;
   font-size: 45px;
-  color: var(--secondary);
+  color: var(--primary);
 }
 
 .project {
   margin-top: 80px;
   border-radius: 20px;
-  background-color: #FFF9F0;
+  background-color: var(--secondary);
   display: flex;
 }
 
 .project img {
   max-width: 600px;
   margin: 50px 30px;
+  border-radius: 20px;
 }
 
 .project-profile {
@@ -45,11 +46,30 @@ svg {
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
-  color: #096B72;
+  color: var(--primary);
 }
 
 .project-description {
   font-size: 20px;
+  color: var(--primary);
+}
+
+.project-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.project-profile button {
+  max-width: 150px;
+  padding: 13px 30px;
+  margin-top: 30px;
+  margin-right: 15px;
+  background-color: var(--buttons);
+  color: var(--primary);
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 .stack {
@@ -57,14 +77,16 @@ svg {
 }
 
 .stack-name {
-  padding: 15px 20px;
+  padding: 10px 15px;
   margin-right: 15px;
-  border-radius: 15px;
-  box-shadow: 2px 6px grey;
-  color: #096B72;
+  border-radius: 17px;
+  /* box-shadow: 2px 6px grey; */
+  background-color: var(--third);
+  color: var(--primary);
   font-family: "Calistoga", serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 13px;
 }
 
 

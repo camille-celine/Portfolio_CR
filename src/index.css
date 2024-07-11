@@ -1,7 +1,12 @@
 :root {
-  --primary: #F5E4D5;
-  --secondary: #CE7D2A;
-  --third: #F3CDC2;
+  /* Background About me & Card font */
+  --primary: #232946;
+  /* Headline & Cards background */
+  --secondary: #fffffe;
+  /* Background  Projects */
+  --third: #d4d8f0;
+  /* Buttons */ 
+  --buttons: #eebbc3;
 }
 
 body {
