@@ -6,7 +6,7 @@
 
 .Navbar button {
   margin-right: 80px;
-  background-color: var(--third);
+  background-color: var(--buttons);
   border-radius: 30px;
   border: none;
   width: 200px;
