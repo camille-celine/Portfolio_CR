@@ -5,16 +5,19 @@
 }
 
 .Navbar button {
+  padding: 10px 20px;
   margin-right: 80px;
   background-color: var(--buttons);
   border-radius: 30px;
   border: none;
-  width: 200px;
   color: var(--secondary);
   font-family: "PT Serif", serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 20px;
+  font-size: 18px;
+  &:hover {
+    cursor: pointer;
+  }
   
 }
 
@@ -27,3 +30,23 @@
   color: var(--secondary);
 }
 
+@media screen and (max-width: 1200px) {
+  .name {
+    font-size: 25px
+  }
+
+  .Navbar button {
+    font-size: 15px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .name {
+    font-size: 21px
+  }
+
+  .Navbar button {
+    font-size: 11px;
+  }
+}
