@@ -27,8 +27,8 @@ function Project() {
                 <span className="stack-name">CSS</span>
               </p>
             </div>
-            <div className="project-button">
-              <button>Live site</button>
+            <div className="project-button button-effect">
+              <button><a className="effect effect-1" href="https://my-watchlist-etfk.onrender.com/" target="_blank">Live Site</a></button>
             </div>
           </div>
         </div>
@@ -47,8 +47,8 @@ function Project() {
                 <span className="stack-name">CSS</span>
               </p>
             </div>
-            <div className="project-button">
-              <button>Live site</button>
+            <div className="project-button button-effect">
+              <button><a className="effect effect-1" href="https://quotes-generator-6dc7.onrender.com/" target="_blank">Live Site</a></button>
             </div>
           </div>
         </div>
