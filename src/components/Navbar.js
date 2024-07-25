@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div className="Navbar">
       <div className="name">Camille Rey</div>
-      <button>Download CV</button>
+      {/* <button>Download CV</button> */}
     </div>
   )
 }
